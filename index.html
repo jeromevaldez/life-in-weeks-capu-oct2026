@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life in Weeks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="title">Life in Weeks</h1>
+
+    <!-- Birth date entry. Shown until a date is saved, and again while editing. -->
+    <form id="birth-form" class="birth-form" novalidate>
+      <label class="visually-hidden" for="month">Month</label>
+      <select id="month">
+        <option value="">Month</option>
+      </select>
+
+      <label class="visually-hidden" for="day">Day</label>
+      <select id="day">
+        <option value="">Day</option>
+      </select>
+
+      <label class="visually-hidden" for="year">Year</label>
+      <select id="year">
+        <option value="">Year</option>
+      </select>
+
+      <button type="submit" class="button">Submit</button>
+      <button type="button" id="cancel" class="button button-soft" hidden>Cancel</button>
+
+      <p id="error" class="error" role="alert" hidden></p>
+    </form>
+
+    <!-- The saved birth date, with edit and reset. -->
+    <div id="birth-display" class="birth-display" hidden>
+      <p>Born: <strong id="birth-text"></strong></p>
+      <button type="button" id="edit" class="button button-outline">Edit</button>
+      <button type="button" id="reset" class="button button-outline">Reset</button>
+    </div>
+
+    <p id="summary" class="summary" hidden></p>
+
+    <!-- 90 rows of 52 squares. Filled in by app.js. -->
+    <div id="grid" class="grid" role="img" aria-label="A grid of 4,680 squares, one for each week of a 90-year life"></div>
+
+    <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+
+    <footer class="footer">
+      Inspired by <a href="https://waitbutwhy.com/2014/05/life-weeks.html" target="_blank" rel="noopener">Wait But Why</a>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
