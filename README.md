@@ -44,7 +44,7 @@ Then pick a path.
 
 ### Path A: start from the PRD
 
-Edit `requirements/prd.md` so it describes your version of the app. Hand it to whatever AI tool you have (Figma Make, Noema, ChatGPT, Claude) and ask it to build it. Compare what you get with the starter.
+Edit `requirements/prd.md` so it describes your version of the app. Hand it to whatever AI tool you have and ask it to build it. Compare what you get with the starter.
 
 ### Path B: start from the code
 
