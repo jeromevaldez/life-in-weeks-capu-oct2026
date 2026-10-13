@@ -42,7 +42,7 @@ The visual design system for Life in Weeks. The colours and scales come from Rad
 | `--week-lived` | `--indigo-7` | A week already lived |
 | `--week-current` | `--indigo-9` | This week |
 
-Want a different look? Change these tokens first. Radix has other 12-step scales (tomato, crimson, plum, teal, grass, amber and more) at https://www.radix-ui.com/colors if you want to swap the accent.
+To change the look, start with these tokens. Radix has other 12-step scales (tomato, crimson, plum, teal, grass, amber and more) at https://www.radix-ui.com/colors if you want to swap the accent.
 
 ---
 

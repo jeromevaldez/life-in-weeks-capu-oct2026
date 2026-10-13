@@ -18,7 +18,7 @@ There's also a `nextjs` branch with the same app built in Next.js. Ignore it unl
 
 ## Get it running
 
-Easiest: click the green **Code** button above, then **Download ZIP**. Unzip it and open `index.html` in your browser. That's it.
+Click the green **Code** button above, then **Download ZIP**. Unzip it and open `index.html` in your browser. That's it.
 
 If you have git and a GitHub account and think you'll want to share your work at the end, fork it first (**Fork** button, top right), then clone your fork:
 

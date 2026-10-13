@@ -2,7 +2,7 @@
 
 Plain HTML, CSS and JavaScript. Nothing to install, nothing to build. Open `index.html` in a browser and the app runs.
 
-This keeps the focus on the product and the design, not on tooling. Anyone with a browser and a text editor (or an AI tool) can change it.
+That way the time goes into the product and the design. Anyone with a browser and a text editor (or an AI tool) can change it.
 
 ---
 
