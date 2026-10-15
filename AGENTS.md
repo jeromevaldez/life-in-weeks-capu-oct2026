@@ -21,7 +21,8 @@ The PRD describes the first version. The code has moved on a little since (indig
 
 ## Rules
 
-- Keep it plain HTML, CSS and JavaScript that runs by opening `index.html`. No frameworks, no npm, no build tools
+- Keep it plain HTML, CSS and JavaScript that runs by opening `index.html`. No JavaScript frameworks, no npm, no build tools
+- The starter uses no CSS framework. If a student wants one, Pico CSS (https://picocss.com) loads with a single `<link>` tag. That's fine to add
 - No ES modules. `type="module"` breaks when the page is opened from a file
 - Use the tokens in `styles.css`. Add a new token rather than hard-coding a colour or size
 - Write user-facing text with `textContent`, not `innerHTML`

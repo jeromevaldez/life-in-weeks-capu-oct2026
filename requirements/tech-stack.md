@@ -29,13 +29,13 @@ Keep it to these three app files unless a feature clearly needs more. If you add
 - Use the custom properties in `:root` for colour, spacing, radius and font. Add new tokens there rather than hard-coding values
 - Layout with flexbox and CSS grid
 - Mobile breakpoint at 768px. Below it, each year of the grid wraps into 4 rows of 13 weeks
-- No CSS frameworks
+- The starter uses no CSS framework. If you want one, [Pico CSS](https://picocss.com) loads with a single `<link>` tag and styles plain HTML elements
 
 ## JavaScript
 
 - Vanilla JavaScript, loaded with a plain `<script src="app.js">` tag
 - **No ES modules** (`type="module"` or `import`). Browsers block them when the page is opened straight from a file, and that breaks the "just open index.html" rule
-- No frameworks, no npm packages, no CDN scripts
+- No JavaScript frameworks, no npm packages, no CDN scripts
 - Small, named functions with short comments that explain why
 - Write user-facing text with `textContent`, not `innerHTML`
 
